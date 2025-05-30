@@ -1,0 +1,136 @@
+? Phase-by-Phase Roadmap
+
+? Phase 1: Backend Core (FastAPI + PostgreSQL + Sentiment Analysis)
+Goal: Build the basic backend that ingests news, analyzes sentiment, and stores it in a database.
+? Tasks:
+    1. ?? Setup FastAPI with routes (/fetch-news, /articles, /db-status)
+    2. ?? Connect to PostgreSQL with SQLAlchemy
+    3. ?? Analyze sentiment using VADER (sentiment.py)
+    4. ?? Fetch news from NewsAPI
+    5. ?? Store articles in database
+? You’ll Learn:
+    • FastAPI routing & HTTP methods
+    • SQLAlchemy ORM
+    • Environment variable usage
+    • NewsAPI integration
+    • How sentiment analysis models work (VADER)
+
+? Phase 2: Dockerization & Local Deployment
+Goal: Run the backend and database with Docker Compose
+? Tasks:
+    1. ?? Create Dockerfile and docker-compose.yml
+    2. ?? Fix paths and dependencies for container compatibility
+    3. ? Test the API with http://localhost:8000/fetch-news
+? You’ll Learn:
+    • Docker & Docker Compose basics
+    • Managing dependencies with requirements.txt
+    • Environment variable injection
+    • Volumes and networks in Docker
+
+? Phase 3: Streamlit Dashboard
+Goal: Visualize the data on a simple dashboard
+? Tasks:
+    1. Create a new dashboard.py
+    2. Connect to PostgreSQL using SQLAlchemy or psycopg2
+    3. Add charts:
+        ? Pie chart (sector sentiment split)
+        ? Line chart (time-based trends)
+        ? Table of top positive/negative headlines
+? You’ll Learn:
+    • Streamlit UI basics
+    • Data querying & visualization
+    • Plotly or Matplotlib with Streamlit
+    • How to update and auto-refresh dashboards
+
+?? Phase 4: Multi-Sector Support
+Goal: Allow multiple sectors with keyword-based tracking
+? Tasks:
+    1. Create config/sectors_keywords.json:
+       json
+       CopyEdit
+       {
+         "AI": ["AI", "artificial intelligence", "ChatGPT"],
+         "EV": ["electric vehicles", "Tesla", "battery"]
+       }
+    2. Update fetch_and_store_news() to loop through sectors
+    3. Store sector info per article
+? You’ll Learn:
+    • Dynamic querying with multiple keywords
+    • Handling configurations via JSON
+    • Efficient looping & batching in APIs
+
+? Phase 5: Scheduler for News Fetching
+Goal: Auto-fetch news every 30-60 minutes
+? Options:
+    • ? Easy: Use APScheduler in FastAPI
+    • ? Advanced: Use Celery + Redis for distributed task queues
+? You’ll Learn:
+    • Task scheduling
+    • Background tasks in FastAPI
+    • (Optional) Celery task queue concepts
+
+? Phase 6: Alerts & Notifications
+Goal: Notify users on sentiment spikes
+? Tasks:
+    1. Add logic to track day-over-day sentiment delta
+    2. Add alert_rules table or config
+    3. Send alerts:
+        ? Email (SMTP)
+        ? Telegram bot
+? You’ll Learn:
+    • Alert rule logic
+    • Email/Telegram automation
+    • Creating simple alerting systems
+
+? Phase 7: User Accounts & Preferences (Optional)
+Goal: Track user sector preferences
+? Tasks:
+    1. Add FastAPI login system (fastapi-users or JWT)
+    2. Add users and user_preferences tables
+    3. Show custom dashboard views per user
+? You’ll Learn:
+    • JWT authentication
+    • Session management
+    • User preference filtering
+
+? Phase 8: Deployment
+Goal: Deploy to Heroku, Render, or GCP
+? Tasks:
+    1. Add production Dockerfile and .env support
+    2. Push to cloud provider
+    3. Setup Postgres addon or cloud DB
+    4. Optional: Separate Streamlit frontend on Render
+? You’ll Learn:
+    • Production Docker optimization
+    • Cloud deployments
+    • Managing hosted DBs
+
+? Summary Table
+Phase
+Goal
+Skills Learned
+1
+FastAPI + DB + Sentiment
+APIs, SQLAlchemy, NLP
+2
+Dockerization
+Docker, Compose
+3
+Dashboard
+Streamlit, Plotting
+4
+Multi-sector
+JSON configs, dynamic fetching
+5
+Scheduler
+APScheduler/Celery
+6
+Alerts
+Notification systems
+7
+Users
+Auth & preference filtering
+8
+Deploy
+Cloud deploy, env mgmt
+
