@@ -1,0 +1,22 @@
+# Python cache and bytecode files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Docker and Compose files that contain secrets
+docker-compose.yml
+
+# Logs
+*.log
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
