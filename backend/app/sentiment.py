@@ -1,4 +1,5 @@
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+<<<<<<< HEAD
 import re
 
 def preprocess_text(text):
@@ -13,6 +14,7 @@ analyzer = SentimentIntensityAnalyzer()
 def analyze_sentiment(text: str):
     text = preprocess_text(text)
     sentiment, score = analyze_sentiment(text)
+
     score = analyzer.polarity_scores(text)
     compound = score['compound']
     sentiment = (

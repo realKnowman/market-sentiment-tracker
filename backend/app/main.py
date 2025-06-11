@@ -39,7 +39,6 @@ def fetch_news():
 
 @app.get("/articles")
 def get_articles():
-    
     session: Session = SessionLocal()
     articles = session.query(Article).order_by(Article.published_at.desc()).limit(20).all()
     session.close()

@@ -10,7 +10,6 @@ import plotly.express as px
 import io
 import os
 
-
 def safe_text(text):
     """Sanitize text by replacing unsupported characters with 'replace' strategy"""
     return text.encode('latin-1', 'replace').decode('latin-1')
