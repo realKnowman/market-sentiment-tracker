@@ -1,5 +1,4 @@
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-<<<<<<< HEAD
 import re
 
 def preprocess_text(text):
