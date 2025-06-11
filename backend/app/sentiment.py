@@ -11,14 +11,18 @@ def preprocess_text(text):
 analyzer = SentimentIntensityAnalyzer()
 
 def analyze_sentiment(text: str):
+    # Preprocess the input text
     text = preprocess_text(text)
-    sentiment, score = analyze_sentiment(text)
-
+    
+    # Perform sentiment analysis using VADER
     score = analyzer.polarity_scores(text)
     compound = score['compound']
+    
+    # Determine sentiment based on the compound score
     sentiment = (
         'positive' if compound >= 0.05
         else 'negative' if compound <= -0.05
         else 'neutral'
     )
+    
     return sentiment, compound

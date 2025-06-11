@@ -1,37 +1,303 @@
 {
-    "AI": ["AI", "artificial intelligence"],
-    "EV": ["electric vehicles", "Tesla", "EV"],
-    "Green Energy": ["solar power", "wind energy", "green energy"],
-    "Fashion Tech": ["fashion tech", "wearable technology", "smart clothing"],
-    "Healthcare": ["healthcare", "telemedicine", "health tech"],
-    "FinTech": ["fintech", "blockchain", "cryptocurrency"],
-    "EdTech": ["edtech", "online learning", "e-learning"],
-    "Cybersecurity": ["cybersecurity", "data protection", "information security"],
-    "Gaming": ["gaming", "video games", "e-sports"],
-    "Food Tech": ["food tech", "agritech", "sustainable food"],
-    "Real Estate Tech": ["real estate tech", "proptech", "smart buildings"],
-    "Travel Tech": ["travel tech", "tourism technology", "smart travel"],
-    "Logistics Tech": ["logistics tech", "supply chain technology", "smart logistics"],
-    "Biotech": ["biotech", "biotechnology", "life sciences"],
-    "Retail Tech": ["retail tech", "e-commerce", "online shopping"],
-    "Smart Cities": ["smart cities", "urban technology", "IoT"],
-    "Space Tech": ["space tech", "aerospace", "satellite technology"],
-    "Quantum Computing": ["quantum computing", "quantum tech", "quantum"],
-    "Robotics": ["robotics", "automation", "robots"],
-    "Blockchain": ["blockchain", "distributed ledger", "smart contracts"],
-    "Sustainability": ["sustainability", "sustainable development", "green technology"],
-    "Augmented Reality": ["augmented reality", "AR", "mixed reality"],
-    "Virtual Reality": ["virtual reality", "VR", "immersive technology"],
-    "5G Technology": ["5G", "5G technology", "next generation networks"],
-    "Wearable Tech": ["wearable tech", "wearables", "smart devices"],
-    "Cloud Computing": ["cloud computing", "cloud tech", "SaaS"],
-    "Internet of Things": ["IoT", "internet of things", "connected devices"],
-    "Digital Marketing": ["digital marketing", "online marketing", "SEO"],
-    "Content Creation": ["content creation", "content marketing", "digital content"],
-    "Social Media": ["social media", "social networks", "online communities"],
-    "Data Science": ["data science", "big data", "data analytics"],
-    "Machine Learning": ["machine learning", "ML", "artificial intelligence"],
-    "Natural Language Processing": ["NLP", "natural language processing", "text analysis"],
-    "DevOps": ["DevOps", "development operations", "continuous integration"]
-    }
-  
+  "AI": [
+    "artificial intelligence", 
+    "machine learning", 
+    "deep learning", 
+    "neural networks", 
+    "AI research", 
+    "AI technology", 
+    "computer vision"
+  ],
+  "EV": [
+    "electric vehicles", 
+    "Tesla", 
+    "EV charging", 
+    "battery technology", 
+    "electric cars", 
+    "electric vehicle market", 
+    "sustainable transport"
+  ],
+  "Green Energy": [
+    "solar energy", 
+    "wind energy", 
+    "green energy", 
+    "renewable energy", 
+    "clean energy", 
+    "sustainable energy", 
+    "solar power innovation"
+  ],
+  "Fashion Tech": [
+    "fashion tech", 
+    "wearable technology", 
+    "smart clothing", 
+    "fashion innovation", 
+    "digital fashion", 
+    "augmented reality fashion", 
+    "3D printing in fashion"
+  ],
+  "Healthcare": [
+    "healthcare", 
+    "telemedicine", 
+    "health tech", 
+    "medical devices", 
+    "digital health", 
+    "e-health", 
+    "healthcare innovation", 
+    "patient care technology"
+  ],
+  "FinTech": [
+    "fintech", 
+    "blockchain", 
+    "cryptocurrency", 
+    "digital payments", 
+    "neobanks", 
+    "mobile banking", 
+    "insurtech", 
+    "robo-advisors"
+  ],
+  "EdTech": [
+    "edtech", 
+    "online learning", 
+    "e-learning", 
+    "digital education", 
+    "virtual classrooms", 
+    "distance learning", 
+    "education technology"
+  ],
+  "Cybersecurity": [
+    "cybersecurity", 
+    "data protection", 
+    "information security", 
+    "network security", 
+    "cloud security", 
+    "cyber attacks", 
+    "data breaches", 
+    "ethical hacking"
+  ],
+  "Gaming": [
+    "gaming", 
+    "video games", 
+    "e-sports", 
+    "gaming industry", 
+    "game development", 
+    "VR gaming", 
+    "mobile gaming"
+  ],
+  "Food Tech": [
+    "food tech", 
+    "agritech", 
+    "sustainable food", 
+    "plant-based food", 
+    "food innovation", 
+    "food delivery technology", 
+    "smart kitchens"
+  ],
+  "Real Estate Tech": [
+    "real estate tech", 
+    "proptech", 
+    "smart buildings", 
+    "real estate innovation", 
+    "real estate market", 
+    "smart homes", 
+    "property technology"
+  ],
+  "Travel Tech": [
+    "travel tech", 
+    "tourism technology", 
+    "smart travel", 
+    "travel booking", 
+    "travel apps", 
+    "tourism innovation", 
+    "smart destinations"
+  ],
+  "Logistics Tech": [
+    "logistics tech", 
+    "supply chain technology", 
+    "smart logistics", 
+    "supply chain management", 
+    "inventory management", 
+    "automated logistics", 
+    "logistics software"
+  ],
+  "Biotech": [
+    "biotech", 
+    "biotechnology", 
+    "life sciences", 
+    "genomics", 
+    "biopharma", 
+    "gene editing", 
+    "CRISPR", 
+    "biotech startups"
+  ],
+  "Retail Tech": [
+    "retail tech", 
+    "e-commerce", 
+    "online shopping", 
+    "digital retail", 
+    "retail innovation", 
+    "retail automation", 
+    "omnichannel retail"
+  ],
+  "Smart Cities": [
+    "smart cities", 
+    "urban technology", 
+    "IoT", 
+    "city innovation", 
+    "urban mobility", 
+    "smart infrastructure", 
+    "sustainable cities"
+  ],
+  "Space Tech": [
+    "space tech", 
+    "aerospace", 
+    "satellite technology", 
+    "space exploration", 
+    "space startups", 
+    "space industry", 
+    "mars exploration"
+  ],
+  "Quantum Computing": [
+    "quantum computing", 
+    "quantum tech", 
+    "quantum algorithms", 
+    "quantum cryptography", 
+    "quantum research", 
+    "quantum computers"
+  ],
+  "Robotics": [
+    "robotics", 
+    "automation", 
+    "robots", 
+    "industrial robotics", 
+    "robotic process automation", 
+    "AI robotics", 
+    "robotic innovation"
+  ],
+  "Blockchain": [
+    "blockchain", 
+    "distributed ledger", 
+    "smart contracts", 
+    "cryptocurrency", 
+    "blockchain technology", 
+    "DeFi", 
+    "NFTs", 
+    "digital currency"
+  ],
+  "Sustainability": [
+    "sustainability", 
+    "sustainable development", 
+    "green technology", 
+    "climate change", 
+    "carbon footprint", 
+    "clean tech", 
+    "environmental sustainability"
+  ],
+  "Augmented Reality": [
+    "augmented reality", 
+    "AR", 
+    "mixed reality", 
+    "AR apps", 
+    "AR technology", 
+    "immersive technology"
+  ],
+  "Virtual Reality": [
+    "virtual reality", 
+    "VR", 
+    "immersive technology", 
+    "VR apps", 
+    "VR gaming", 
+    "virtual environments", 
+    "VR innovations"
+  ],
+  "5G Technology": [
+    "5G", 
+    "5G technology", 
+    "next generation networks", 
+    "5G network rollout", 
+    "5G innovation", 
+    "5G connectivity"
+  ],
+  "Wearable Tech": [
+    "wearable tech", 
+    "wearables", 
+    "smart devices", 
+    "fitness trackers", 
+    "smartwatches", 
+    "wearable technology"
+  ],
+  "Cloud Computing": [
+    "cloud computing", 
+    "cloud tech", 
+    "SaaS", 
+    "cloud storage", 
+    "cloud security", 
+    "cloud infrastructure"
+  ],
+  "Internet of Things": [
+    "IoT", 
+    "internet of things", 
+    "connected devices", 
+    "smart devices", 
+    "IoT applications", 
+    "IoT connectivity"
+  ],
+  "Digital Marketing": [
+    "digital marketing", 
+    "online marketing", 
+    "SEO", 
+    "PPC", 
+    "social media marketing", 
+    "content marketing", 
+    "digital advertising"
+  ],
+  "Content Creation": [
+    "content creation", 
+    "content marketing", 
+    "digital content", 
+    "social media content", 
+    "content strategy", 
+    "video content", 
+    "blogging"
+  ],
+  "Social Media": [
+    "social media", 
+    "social networks", 
+    "online communities", 
+    "social media platforms", 
+    "social media marketing", 
+    "social media trends"
+  ],
+  "Data Science": [
+    "data science", 
+    "big data", 
+    "data analytics", 
+    "data mining", 
+    "data visualization", 
+    "data models", 
+    "machine learning"
+  ],
+  "Machine Learning": [
+    "machine learning", 
+    "ML", 
+    "artificial intelligence", 
+    "deep learning", 
+    "neural networks", 
+    "reinforcement learning"
+  ],
+  "Natural Language Processing": [
+    "NLP", 
+    "natural language processing", 
+    "text analysis", 
+    "text mining", 
+    "sentiment analysis", 
+    "language models"
+  ],
+  "DevOps": [
+    "DevOps", 
+    "development operations", 
+    "continuous integration", 
+    "CI/CD", 
+    "automated testing", 
+    "cloud automation"
+  ]
+}
