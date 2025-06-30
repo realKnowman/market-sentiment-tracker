@@ -18,6 +18,8 @@ A modular, scalable backend and dashboard application to track, analyze, and vis
       
     � Robust handling of empty or missing data scenarios.
 
+       Deployed on AWS EC2 with Docker Compose, using PostgreSQL for data storage, FastAPI for the backend, and Streamlit for the frontend.
+
  Tech Stack
 
     � Backend: Python, FastAPI, SQLAlchemy
@@ -31,6 +33,15 @@ A modular, scalable backend and dashboard application to track, analyze, and vis
     � Containerization: Docker, Docker Compose
       
     � APIs: NewsAPI
+
+      Cloud Deployment: AWS EC2
+
+AWS Deployment Details
+The FastAPI backend and Streamlit dashboard are deployed on AWS EC2 using Docker and Docker Compose.
+
+PostgreSQL is used as the database, and all components communicate within a Docker network on EC2.
+
+The EC2 security groups are configured to allow HTTP traffic on port 80 and Streamlit on port 8501.
 
 Getting Started
 
